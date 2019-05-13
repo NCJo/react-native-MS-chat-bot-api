@@ -4,7 +4,7 @@ import { GiftedChat } from "react-native-gifted-chat";
 import { DirectLine } from "botframework-directlinejs";
 
 const directLine = new DirectLine ({
-  secret: "0sTl4Rzyh4M.IMyBcEs3d-uFr4po02elq-rWRRMmArTELDZCK1kVUgQ"
+  secret: "A6QMg-Fjgn0.AJffF4VX1hUVyyFdHMiJGfCDwpsegX1MWqqkaIdOesA"
 });
 
 const botMessageToGiftedMessage = botMessage => ({
@@ -17,6 +17,8 @@ const botMessageToGiftedMessage = botMessage => ({
     // avatar
   }
 });
+
+
 
 function giftedMessageToBotMessage(message) {
   return {
@@ -69,5 +71,3 @@ const styles = StyleSheet.create({
 });
 
 
-// 0sTl4Rzyh4M.IMyBcEs3d-uFr4po02elq-rWRRMmArTELDZCK1kVUgQ
-// 0sTl4Rzyh4M.FWH5X7qu3o2QwW5oVn170OAd2Oqmgy88RjlreWrtJjw
